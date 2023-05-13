@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Minecart_LCD';
+  src: local('Minecart_LCD'), url(../fonts/Minecart_LCD.ttf);
+}
+
+.timetable {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: "Minecart_LCD", Courier, monospace;
+  border: 20px solid #000;
+  background-color: #221701;
+  width: 500px;
+}
+
+.timetable td {
+  color: #fc9703;
+  text-align: left;
+} 
+
+.name {
+  padding-left: 5px;
+}
+
+.timetable .time {
+  width: 45%;
+  margin-left: 40px;
+  float: right;
+}
