@@ -3,7 +3,7 @@
 ![screenshot](/screenshot.png)
 
 This is a simple timetable react app that displays arrival times for the supplied station id.
-This app simply uses the api of the swb-mobil app and is not affiliated with swb-mobil.
+This app simply uses the api of the swb-mobil app by Stadtwerke-Bonn but is not affiliated with it.
 Requests are send every minute so not to generate too much traffic.
 
 ## Getting Started
