@@ -5,24 +5,34 @@
 
 .timetable {
   border-collapse: collapse;
-  width: 100%;
   font-family: "Minecart_LCD", Courier, monospace;
   border: 20px solid #000;
   background-color: #221701;
-  width: 500px;
+  width: min-content;
 }
 
 .timetable td {
   color: #fc9703;
   text-align: left;
-} 
+  padding-left: 5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.headsign {
+  min-width: 20rem;
+  max-width: 30rem;
+  
+}
 
 .name {
-  padding-left: 5px;
+  width: fit-content;
+  max-width: 10rem;
 }
 
 .timetable .time {
-  width: 45%;
   margin-left: 40px;
   float: right;
+  width: fit-content;
 }
