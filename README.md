@@ -8,7 +8,13 @@ Requests are send every minute so not to generate too much traffic.
 
 ## Getting Started
 
-The app needs a .env file in it's root directory with the following variables:
+First install all dependencies using npm:
+
+```bash
+npm install
+```
+
+Then create a .env file in the root directory of the project and add the following variables:
 
 ```env
 REACT_APP_STATION_NAME=<display-name>
